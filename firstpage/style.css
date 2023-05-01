@@ -1,0 +1,56 @@
+/*comentarios en css*/
+body{
+    background-color: #cf9548ab; /*color de fondo*/
+    color: #1d150e;/*#553d2a*/
+    font-family: Arial, Helvetica, sans-serif ;
+    list-style: none;
+    text-align: center;
+    }
+
+header {
+    margin: 0 ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FObUY66caL8W-_ywXEARnrQn45l12hKemw&usqp=CAU);
+    background-size: 800px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    padding: 20%;
+    
+}
+
+main{
+    margin-left: 10% ;
+    margin-right: 10%;
+    background-position: right;
+    align-items: left;
+    justify-items: right ;
+    text-align: center;
+    list-style:circle ;
+
+}
+p{
+    color: #553d2a;
+}
+
+h1{
+    color:black ;
+}
+
+/*.Titulo-web{ /*. indica que es una clase*/
+    /*color: blue;*/
+    /*font-size: x-large ; ||cambia el tamaño del texto*/ 
+.max-Copy{ /*referenciado en html*/
+
+}
+
+img{ /*modificar el tamaño de la imagen*/
+    float: inline-end;    
+    width:250px ; /*ancho de imagen*/ 
+    height:300px ; /*altura*/
+}
+button{
+    cursor: pointer;
+}
